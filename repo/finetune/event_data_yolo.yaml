@@ -1,0 +1,11 @@
+# event_data.yaml
+path: /home/neuromorph/htn/dataset/DSEC/YOLOWorld  # Base dataset directory
+train: train/images  # Train images (relative path to 'path')
+val: val/images  # Validation images 
+test: test/images  # Test images (relative path to 'path')
+
+# Number of classes
+nc: 7
+
+# Class names
+names: ['pedestrian', 'rider', 'car', 'bus', 'truck', 'bicycle', 'motorcycle']
